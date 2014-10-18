@@ -14,7 +14,7 @@ Current unsupported languages are Czech, Finnish, Japanese, Russian, Ukrainian. 
 
 **Requirements**
 
-The module was written as a RequireJs module and requires the amd version of i18next of localization 
+The module was written as a RequireJs module and requires the amd version of i18next for localization 
 
 http://requirejs.org/
 
