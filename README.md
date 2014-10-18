@@ -3,16 +3,21 @@ prettytimejs
 A JavaScript port of the PrettyTime Java library. 
 
 **Why**
-I wanted more precise relative dates than what is offered by moment, timeago, or other libraries that I had tried. I've used [PrettyTime](https://github.com/ocpsoft/prettytime) and, [PrettyTime.net](https://code.google.com/p/prettytimedotnet/) C# port, and knew it offered the functionality that I wanted but couldn't JavaScript port.
+
+I wanted more precise relative dates than what is offered by moment, timeago, or other libraries that I had tried. I've used [PrettyTime](https://github.com/ocpsoft/prettytime) and, the [PrettyTime.net](https://code.google.com/p/prettytimedotnet/) C# port, and knew it offered the functionality that I wanted but couldn't find a JavaScript port.
 
 **Localization**
-This port does not currently have support for custom TimeFormats and because of that it doesn't support any language that required a TimeFormatProvider. 
 
-Current unsupported locales are Czech, Finnish, Japanese, Russian, Ukrainian. All other languages that are supported by pretty time are included. 
+This port does not currently have support for custom TimeFormats and because of this it doesn't support any language that required a TimeFormatProvider. 
+
+Current unsupported languages are Czech, Finnish, Japanese, Russian, Ukrainian. All other languages that are supported by pretty time are included. 
 
 **Requirements**
+
 The module was written as a RequireJs module and requires the amd version of i18next of localization 
+
 http://requirejs.org/
+
 http://i18next.com/ 
 
 **Usage**
@@ -29,4 +34,5 @@ http://i18next.com/
 See sample app for other usage and configuration scenarios 
 
 **License**
+
 Apache 2.0
